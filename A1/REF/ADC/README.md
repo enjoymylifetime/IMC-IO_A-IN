@@ -1,0 +1,3 @@
+ads1119与ads112c0 pin2pin兼容，ads1119采样速度为1KSPS，ads112c04采样速度为2KSPS；
+
+ads8345为卢工提供参考

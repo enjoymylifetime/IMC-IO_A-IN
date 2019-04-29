@@ -1,0 +1,94 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : IMC-IO_A-IN_A1.brd                            )
+(    Software Version : 16.6-2015S082                                 )
+(    Date/Time        : Sat Apr 13 15:49:42 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'D:/workspace/hardware/EMA/IMC-IO/IMC-IO_A-IN/A1/SCH/allegro'
+Design Directory:            'D:/workspace/hardware/EMA/IMC-IO/IMC-IO_A-IN/A1/PCB'
+Old design name:             'D:/workspace/hardware/EMA/IMC-IO/IMC-IO_A-IN/A1/PCB/IMC-IO_A-IN_A1.brd'
+New design name:             'D:/workspace/hardware/EMA/IMC-IO/IMC-IO_A-IN/A1/PCB/IMC-IO_A-IN_A1.brd'
+
+CmdLine: netrev -$ -i D:/workspace/hardware/EMA/IMC-IO/IMC-IO_A-IN/A1/SCH/allegro -y 1 -z -q netrev_constraint_report.xml D:/workspace/hardware/EMA/IMC-IO/IMC-IO_A-IN/A1/PCB/#Taaaaae27104.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read D:/workspace/hardware/EMA/IMC-IO/IMC-IO_A-IN/A1/SCH/allegro/pstchip.dat 
+   Finished reading D:/workspace/hardware/EMA/IMC-IO/IMC-IO_A-IN/A1/SCH/allegro/pstchip.dat (00:00:00.18)
+Starting to read D:/workspace/hardware/EMA/IMC-IO/IMC-IO_A-IN/A1/SCH/allegro/pstxprt.dat 
+   Finished reading D:/workspace/hardware/EMA/IMC-IO/IMC-IO_A-IN/A1/SCH/allegro/pstxprt.dat (00:00:00.01)
+Starting to read D:/workspace/hardware/EMA/IMC-IO/IMC-IO_A-IN/A1/SCH/allegro/pstxnet.dat 
+   Finished reading D:/workspace/hardware/EMA/IMC-IO/IMC-IO_A-IN/A1/SCH/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Program Files/Cadence/SPB_16.6/share/local/pcb/modules 
+
+PSMPATH =  D:/workspace/mainDepot/library/footprint/ 
+           D:/WORKSPACE/hardware/lib/Allegro Footprints/ 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Program Files/Cadence/SPB_16.6/share/local/pcb/symbols 
+           D:/Program Files/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           D:/Program Files/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+
+PADPATH =  D:/workspace/hardware/lib/Allegro Footprints/ 
+           D:/workspace/mainDepot/Libraries/footprint/ 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Program Files/Cadence/SPB_16.6/share/local/pcb/padstacks 
+           D:/Program Files/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           D:/Program Files/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Apr 13 15:49:42 2019
+   DESIGN NAME : 'IMC-IO_A-IN_A1'
+   PACKAGING ON Feb 15 2016 19:53:59
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:02:31
+elapsed time  0:00:01
+
