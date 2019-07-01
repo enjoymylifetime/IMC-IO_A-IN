@@ -32,4 +32,6 @@
 
 ###### 		6)95pin EX_ADD3	-->GND, 100pin NC	-->EX_ADD3;
 
+###### 7）37pin  F_EX_DATA2 -->,   27pin NC -->F_EX_DATA2 ;
+
 ​		
