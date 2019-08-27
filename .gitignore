@@ -1,114 +1,56 @@
-##ignore this file##
-/target/
-/.ssh/
-/cdssetup/
-/pcbenv/
-/.svn/
+# Prerequisites
+*.d
 
-.classpath
-.project
-.settings
-     
- ##filter databfile、sln file##
-#*.mdb  
-*.ldb  
-*.sln   
-##class file##
-*.com  
-*.class  
-*.dll  
-*.exe  
-*.o  
-*.so 
-*.log
-*.opj
-*.log,*
-# compression file
-*.7z  
-*.dmg  
-*.gz  
-*.iso  
-*.jar  
-*.rar  
-*.tar  
-*.zip  
-*.via
-*.tmp
-*.err
-# OS generated files #  
-.DS_Store  
-.DS_Store?  
-._*  
-.Spotlight-V100  
-.Trashes  
-Icon?  
-ehthumbs.db  
-Thumbs.db 
-*.log
-allegro.jrl
-allegro.jrl,*
-*.dml
-*.cfg
-*.cfg,*
-*.bak
-*.SchPreview
-*.Bkp
-*.txt,*
-*.SAV
-*.OBK
-*.DBK
-*.psr
-*.tag
-*.DBCBAK
-*.pud
-*.ssm
-*,1
-*,2
-*,3
-*,4
-*,5
-*,6
-*,7
-*,8
-*,9
-*,10
-*.lck
-#*.PrjPcb
-*.ini
-*.SchDocPreview
-*.htm
-*.DSNlck
-*.PcbDocPreview
-*.DRC
-*.PrjPCBStructure
-*.dat
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
 
-!*.c
-!*.s
-!*.py
-!*.DSN
-!*.pcb
-!*.dra
+# Linker output
+*.ilk
+*.map
+*.exp
 
+# Precompiled Headers
+*.gch
+*.pch
 
-备注：
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
 
-/target/ ：过滤文件设置，表示过滤这个文件夹
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
 
-*.mdb  ，*.ldb  ，*.sln 表示过滤某种类型的文件
-/mtk/do.c ，/mtk/if.h  表示指定过滤某个文件下具体文件
- !*.c , !/dir/subdir/     !开头表示不过滤
- *.[oa]    支持通配符：过滤repo中所有以.o或者.a为扩展名的文件
-/hardware/lib/cdssetup
-/hardware/lib/cdssetup
-/hardware/lib/pcbenv
-/hardware/lib/pcbenv
-/hardware/DxDesigner.xml
-/hardware/DxDesigner.wsp
-/hardware/涓�宸?IMX6UL/imx6ul/__Previews
-/hardware/lib/.bash_history
-/hardware/lib/.viminfo
-/hardware/lib/.bash_history
-/hardware/lib/.viminfo
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
 
-/SCH/__Previews
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+/PCB/*.jrl
+/SCH/*.opj
+/DXF/*.cnv

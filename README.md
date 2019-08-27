@@ -1,14 +1,21 @@
-# IMC-IO_A-IN
+#### 使用说明
 
-#### 介绍
-4. 
+SCH文件夹为原理图；
 
+PCB文件夹为PCB；
 
-#### 码云特技
+REF文件夹为开发设计的参考资料；
 
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+MFG文件夹为生产制造文件；
+
+DXF为结构图；
+
+DOC为各类文档；
+
+PER为外围模块；
+
+PRD为产品/项目需求；
+
+APP为应用程序；
+
+SYS为操作系统；
